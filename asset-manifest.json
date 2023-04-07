@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c5c09930.css",
-    "main.js": "/portfolio/static/js/main.713673dc.js",
+    "main.css": "/portfolio/static/css/main.29e20530.css",
+    "main.js": "/portfolio/static/js/main.9c90a9ed.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/background.png": "/portfolio/static/media/background.9cb17fe5eaeca16321e5.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.8c4d62ed958387943bdd.png",
@@ -12,12 +12,12 @@
     "static/media/snakegame.png": "/portfolio/static/media/snakegame.2c09ec718565640134d3.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.c82efa73caba8fa8d884.png",
     "index.html": "/portfolio/index.html",
-    "main.c5c09930.css.map": "/portfolio/static/css/main.c5c09930.css.map",
-    "main.713673dc.js.map": "/portfolio/static/js/main.713673dc.js.map",
+    "main.29e20530.css.map": "/portfolio/static/css/main.29e20530.css.map",
+    "main.9c90a9ed.js.map": "/portfolio/static/js/main.9c90a9ed.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5c09930.css",
-    "static/js/main.713673dc.js"
+    "static/css/main.29e20530.css",
+    "static/js/main.9c90a9ed.js"
   ]
 }
