@@ -22,7 +22,7 @@ const Projects = () => {
       <div data-aos="fade-down" className="grid md:grid-cols-2 relative gap-20">
         <div className="flex text-sky-50 font-semibold rounded-xl snakegame projectcard cursor-pointer">
           <a href="https://ozgevuralkoca.github.io/projects/snakegame.html">
-          <div className="my-auto mx-auto rounded-lg p-3 bg-neutral-300/40 backdrop-blur-xl hover:bg-neutral-500/40">
+          <div className="rounded-lg p-3 bg-neutral-300/40 backdrop-blur-xl hover:bg-neutral-500/40">
             <h2 className="text-2xl text-neutral-800 font-semibold">Snake Game</h2>
           </div>
           </a>

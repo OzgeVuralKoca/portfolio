@@ -25,6 +25,9 @@ code {
 /* Project Style */
 .snakegame {
   background-image: url(./assets/images/snakegame.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rollingballs {
@@ -57,7 +60,7 @@ code {
     height: 420px;
   }
 
-  .contact-info{
+  .contact-info {
     display: none;
   }
 }
