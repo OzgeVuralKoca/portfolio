@@ -1,5 +1,6 @@
 import profilphoto from "../assets/images/background.png"
 import SocialMedia from "../common/SocialMedia"
+import cv from "../assets/files/OzgeVuralKocaResume.pdf"
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
               p-2 rounded-xl 
               shadow 
               shadow-sky-600/100">
-              <a download="" href="../assets/files/OzgeVuralKocaResume.pdf">Download CV</a>
+              <a download="ozge-vural-koca-resume" href={cv}>Download CV</a>
             </button>
           </div>
           {/* LinkedIn */}
