@@ -20,11 +20,11 @@ const About = () => {
           className="subtitle text-5xl text-gray-400 pb-20 ms-3">
           WHO AM I
         </h2>
-        <div className="grid lg:grid-cols-2 relative gap-20 pb-20">
+        <div className="grid lg:grid-cols-2 relative gap-10 pb-20 justify-items-center">
           <img
             data-aos="fade-up-right"
             src={aboutPhoto}
-            className="rounded-xl mx-auto"
+            className="rounded-xl"
             alt=""
             width="400px" />
           <div data-aos="fade-down-left" className="m-auto">

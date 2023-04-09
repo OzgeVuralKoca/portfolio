@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             <div
               data-aos="fade-down" data-aos-delay="800"
-              className="text-4xl text-orange-500 font-semibold mb-8">
+              className="text-4xl text-orange-500 font-semibold mb-8 animation">
               Front End Developer
             </div>
             <button

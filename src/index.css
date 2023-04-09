@@ -22,6 +22,31 @@ code {
   height: 450px;
 }
 
+/* home animation */
+.animation {
+  width: 18ch;
+  animation: typing 5s steps(19) infinite reverse;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+}
+
 /* Project Style */
 .snakegame {
   background-image: url(./assets/images/snakegame.png);
