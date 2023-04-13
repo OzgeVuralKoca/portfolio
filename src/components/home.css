@@ -1,0 +1,32 @@
+@media (max-width: 850px) {
+    .profilphoto {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .profilephoto {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 450px) {
+    .socialmedia{
+        display: none;
+    }
+
+    .content1 {
+        font-size: 1.2em;
+    }
+
+    .content2 {
+        font-size: 1.8em;
+        margin-right: 0;
+    }
+
+    .content3 {
+        font-size: 1.5em;
+    }
+}

@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
 }
 
 code {
@@ -80,18 +81,7 @@ code {
 }
 
 @media (max-width: 850px) {
-  .profilphoto {
-    width: 300px;
-    height: 300px;
-  }
-
   .contact-info {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .profile-image {
     display: none;
   }
 }
