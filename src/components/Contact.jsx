@@ -4,9 +4,10 @@ import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import { Toaster, toast } from "react-hot-toast";
 
-
 const Contact = () => {
   const form = useRef();
+  const match1 = window.matchMedia('(max-width: 850px)').matches;
+  const match2 = window.matchMedia('(max-width: 678px)').matches;
 
   // Sending Email
   const sendEmail = (e) => {
@@ -54,11 +55,11 @@ const Contact = () => {
       <div className="flex mb-10 mx-auto justify-center">
         <div>
           <div className="flex bg-orange-600 p-5 rounded-xl font-semibold mx-auto" data-aos="zoom-in">
-            <div className="grid border-r px-4 contact-info">
+            <div className={`grid border-r px-4 contact-info ${match1 ? 'hidden' : ''}`}>
               <img src={cardimage} className="rounded-full" alt="" width="50px" height="50px" />
               <span className="text-lg my-auto ms-2">Özge Vural Koca</span>
             </div>
-            <p className="my-auto border-r px-4 contact-info-2">
+            <p className={`my-auto border-r px-4 contact-info-2 ${match2 ? 'hidden' : ''}`}>
               <i className="fa-solid fa-location-dot text-neutral-700 me-3"></i>
               Ümraniye / İSTANBUL
             </p>
