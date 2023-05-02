@@ -12,19 +12,18 @@ const Skills = () => {
       id="skills"
       className="bg-neutral-900 relative p-20">
       <h2 data-aos="fade-right"
-        data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         className="text-4xl text-sky-600 font-semibold pb-3 ms-3">
         Skills
       </h2>
       <h2
         data-aos="fade-right"
-        data-aos-offset="300"
+        data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        className="subtitle text-5xl text-gray-400 pb-20 ms-3">
+        className="subtitle text-4xl text-gray-400 pb-20 ms-3">
         MY TOP SKILLS
       </h2>
-      <div data-aos="fade-down" className="grid sm:grid-cols-2 lg:grid-cols-3 relative gap-10">
+      <div data-aos="fade-up" className="grid sm:grid-cols-2 lg:grid-cols-3 relative gap-10">
         <div className="bg-neutral-800 flex text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50" />
           <div className="my-auto ms-3">

@@ -39,16 +39,15 @@ const Contact = () => {
     >
       <Toaster />
       <h2 data-aos="fade-right"
-        data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         className="text-4xl text-sky-600 font-semibold pb-3 ms-3">
         Contact Me
       </h2>
       <h2
         data-aos="fade-right"
-        data-aos-offset="300"
+        data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-        className="subtitle text-5xl text-gray-400 pb-10 ms-3">
+        className="subtitle text-4xl text-gray-400 pb-10 ms-3">
         GET IN TOUCH
       </h2>
       <br />
@@ -72,7 +71,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex mx-auto justify-center" style={{ width: "100%" }}>
-        <div className="flex flex-col my-auto" data-aos="flip-right" data-aos-delay="1200">
+        <div className="flex flex-col my-auto" data-aos="flip-right">
           <button className="bg-orange-600 text-orange-100 font-semibold hover:bg-orange-600 pt-2 pb-1 px-3 me-5 mb-5 rounded shadow shadow-orange-800/100">
             <a className="link first" target="_blank" href="mailto:ozgevuralkoca@gmail.com">
               <i className="fa-solid fa-envelope"></i>

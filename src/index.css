@@ -68,6 +68,10 @@ code {
   background-image: url(./assets/images/calculator.png);
 }
 
+.movie {
+  background-image: url(./assets/images/movie.png);
+}
+
 .projectcard {
   background-position: top;
   background-size: cover;

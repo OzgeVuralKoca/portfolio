@@ -8,16 +8,15 @@ const About = () => {
         className="bg-neutral-900 relative px-20">
         <h2
           data-aos="fade-right"
-          data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="text-4xl text-sky-600 font-semibold pb-3 ms-3 pt-20">
           About Me
         </h2>
         <h2
           data-aos="fade-right"
-          data-aos-offset="400"
+          data-aos-offset="200"
           data-aos-easing="ease-in-sine"
-          className="subtitle text-5xl text-gray-400 pb-20 ms-3">
+          className="subtitle text-4xl text-gray-400 pb-20 ms-3">
           WHO AM I
         </h2>
         <div className="grid lg:grid-cols-2 relative gap-10 pb-20 justify-items-center">
