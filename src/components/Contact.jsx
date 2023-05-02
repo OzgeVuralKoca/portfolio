@@ -54,7 +54,7 @@ const Contact = () => {
       <div className="flex mb-10 mx-auto justify-center">
         <div>
           <div className="flex bg-orange-600 p-5 rounded-xl font-semibold mx-auto" data-aos="zoom-in">
-            <div className={`grid border-r px-4 contact-info ${match1 ? 'hidden' : ''}`}>
+            <div className={`flex border-r px-4 contact-info ${match1 ? 'hidden' : ''}`}>
               <img src={cardimage} className="rounded-full" alt="" width="50px" height="50px" />
               <span className="text-lg my-auto ms-2">Özge Vural Koca</span>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex mx-auto justify-center" style={{ width: "100%" }}>
-        <div className="flex flex-col my-auto" data-aos="flip-right">
+        <div className={`flex flex-col ${match2 ? 'hidden' : ''}`} data-aos="flip-right">
           <button className="bg-orange-600 text-orange-100 font-semibold hover:bg-orange-600 pt-2 pb-1 px-3 me-5 mb-5 rounded shadow shadow-orange-800/100">
             <a className="link first" target="_blank" href="mailto:ozgevuralkoca@gmail.com">
               <i className="fa-solid fa-envelope"></i>

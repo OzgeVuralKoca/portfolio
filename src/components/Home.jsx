@@ -53,27 +53,28 @@ const Home = () => {
           <div>
             <div
               data-aos="fade-down" data-aos-delay="1200"
-              className={`text-sky-200 text font-medium content1 ${matches ? 'text-lg' : 'text-3xl'}`}>
+              className={`text-sky-200 text font-medium content1 ${matches ? 'text-2xl mt-10 text-center' : 'text-3xl'}`}>
               Hello, I'm
             </div>
-            <div data-aos="fade-down" data-aos-delay="1000" className={`text-sky-700 font-extrabold ${matches ? 'text-2xl my-3' : 'text-4xl my-5'}`}>
+            <div data-aos="fade-down" data-aos-delay="1000" className={`text-sky-700 font-extrabold ${matches ? 'text-3xl my-3 text-center' : 'text-4xl my-5'}`}>
               Özge Vural Koca
             </div>
             <div
               data-aos="fade-down" data-aos-delay="800"
-              className={`text-orange-500 font-semibold mb-8 animation content3 ${matches ? 'text-lg' : 'text-3xl'}`}>
+              className={`text-orange-500 font-semibold mb-8 animation content3 ${matches ? 'text-2xl text-center' : 'text-3xl'}`}>
               Front End Developer
             </div>
             <button
               data-aos="fade-down"
               data-aos-delay="600"
-              className="bg-sky-600
+              className={`bg-sky-600
               text-sky-50 
               font-semibold 
               hover:bg-sky-800 
               p-2 rounded-xl 
               shadow 
-              shadow-sky-600/100">
+              shadow-sky-600/100
+              ${matches ? 'w-full' : ''}`}>
               <a download="ozge-vural-koca-resume" href={cv}>Download CV</a>
             </button>
           </div>
@@ -82,7 +83,7 @@ const Home = () => {
         {/* Profil Image */}
         <div data-aos="fade-up" data-aos-delay="300" className="my-auto justify-center profile-image flex" style={{ height: "70%" }}>
           <img
-            className="z-20 my-auto profilphoto mx-auto"
+            className={`z-20 profilphoto mx-auto ${matches ? '' : 'my-auto'}`}
             style={photoStyle}
             src={profilphoto}
             alt="profil" />
