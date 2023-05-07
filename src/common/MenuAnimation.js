@@ -33,7 +33,7 @@ function useMenuAnimation(isOpen) {
                 delay: isOpen ? staggerMenuItems : 0
             }
         );
-    }, [isOpen]);
+    }, [isOpen, animate, staggerMenuItems]);
 
     return scope;
 }

@@ -72,6 +72,10 @@ code {
   background-image: url(./assets/images/movie.png);
 }
 
+.real-estate {
+  background-image: url(./assets/images/realestate.png);
+}
+
 .projectcard {
   background-position: top;
   background-size: cover;

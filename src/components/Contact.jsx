@@ -73,7 +73,7 @@ const Contact = () => {
       <div className="flex mx-auto justify-center" style={{ width: "100%" }}>
         <div className={`flex flex-col ${match2 ? 'hidden' : ''}`} data-aos="flip-right">
           <button className="bg-orange-600 text-orange-100 font-semibold hover:bg-orange-600 pt-2 pb-1 px-3 me-5 mb-5 rounded shadow shadow-orange-800/100">
-            <a className="link first" target="_blank" href="mailto:ozgevuralkoca@gmail.com">
+            <a className="link first" rel="noreferrer" target="_blank" href="mailto:ozgevuralkoca@gmail.com">
               <i className="fa-solid fa-envelope"></i>
             </a>
           </button>
