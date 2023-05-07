@@ -68,8 +68,6 @@ const Projects = () => {
             </div>
           </div>
         </a>
-      </div>
-      <div data-aos="fade-up" className="grid md:grid-cols-2 relative gap-20">
         <a target="_blank" rel="noreferrer" href="https://ozgevuralkoca.github.io/movie">
           <div className="flex text-sky-50 font-semibold rounded-xl projectcard real-estate cursor-pointer">
             <div className="my-auto mx-auto rounded-lg p-3 bg-neutral-300/40 backdrop-blur-xl hover:bg-neutral-500/40">
