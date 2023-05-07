@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.acc171a2.css",
-    "main.js": "/portfolio/static/js/main.56814a5a.js",
+    "main.css": "/portfolio/static/css/main.882ca030.css",
+    "main.js": "/portfolio/static/js/main.550c37d4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/movie.png": "/portfolio/static/media/movie.1f0e70ba0022492d6be3.png",
+    "static/media/realestate.png": "/portfolio/static/media/realestate.2b37485adc28cd9bee30.png",
     "static/media/background.png": "/portfolio/static/media/background.f93f754cd6abee4e91d3.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.8c4d62ed958387943bdd.png",
     "static/media/OzgeVuralKocaResume.pdf": "/portfolio/static/media/OzgeVuralKocaResume.8d18295009ea17e6aae5.pdf",
@@ -14,12 +15,12 @@
     "static/media/snakegame.png": "/portfolio/static/media/snakegame.2c09ec718565640134d3.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.c82efa73caba8fa8d884.png",
     "index.html": "/portfolio/index.html",
-    "main.acc171a2.css.map": "/portfolio/static/css/main.acc171a2.css.map",
-    "main.56814a5a.js.map": "/portfolio/static/js/main.56814a5a.js.map",
+    "main.882ca030.css.map": "/portfolio/static/css/main.882ca030.css.map",
+    "main.550c37d4.js.map": "/portfolio/static/js/main.550c37d4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc171a2.css",
-    "static/js/main.56814a5a.js"
+    "static/css/main.882ca030.css",
+    "static/js/main.550c37d4.js"
   ]
 }
