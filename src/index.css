@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
@@ -76,10 +79,13 @@ code {
   background-image: url(./assets/images/realestate.png);
 }
 
+.tech-store {
+  background-image: url(./assets/images/techstore.png);
+}
+
 .projectcard {
   background-position: top;
   background-size: cover;
-  min-height: 200px;
   box-shadow: 2px 2px 3px #8f8e8e;
 }
 

@@ -24,7 +24,6 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      {/* <Projects /> */}
       <Contact />
       <footer className="text-center py-5 bg-neutral-900 subtitle text-gray-400">
         <h4>Created By ozgevuralkoca | © 2023 All rights reserved</h4>
