@@ -83,16 +83,16 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
           data-aos="fade-left"
-          className="flex flex-col gap-2 bg-orange-600 rounded-lg p-5"
+          className="flex flex-col gap-2 bg-neutral-800 rounded-lg p-5"
           style={{ width: "100%", maxWidth: "600px" }}>
-          <h2 className="font-semibold text-xl text-gray-800">CONTACT FORM</h2>
+          <h2 className="font-semibold text-xl text-gray-300">CONTACT FORM</h2>
           {/* Input Name as same as email js templates values */}
           <input
             type="text"
             name="from_name"
             placeholder="Name"
             required
-            className="p-2 rounded-xl bg-orange-100 font-bold text-neutral-900"
+            className="p-2 rounded-xl bg-neutral-800 border border-neutral-600 font-bold text-neutral-900"
           />
           <input
             type="email"
@@ -100,12 +100,12 @@ const Contact = () => {
             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
             placeholder="Email Id"
             required
-            className="p-2 rounded-xl bg-orange-100 font-bold text-neutral-900"
+            className="p-2 rounded-xl bg-neutral-800 border border-neutral-600 font-bold text-neutral-900"
           />
           <textarea
             name="message"
             placeholder="Message"
-            className="p-2 rounded-xl bg-orange-100 font-bold text-neutral-900"
+            className="p-2 rounded-xl bg-neutral-800 border border-neutral-600 font-bold text-neutral-900"
             required
           ></textarea>
           <button
@@ -113,13 +113,13 @@ const Contact = () => {
               btn
               self-start
               px-5
-              bg-gray-600
+              bg-gray-700
               text-gray-50 
               font-semibold 
               hover:bg-gray-800 
               py-2 rounded-xl 
-              shadow 
-              shadow-gray-600/100"
+              shadow-lg
+              shadow-neutral-900/90"
           >
             Submit
           </button>

@@ -1,11 +1,7 @@
 import nodejs from "../assets/images/nodejs.png"
-import { useState } from "react";
-import { motion } from "framer-motion";
-import useMenuAnimation from "../common/MenuAnimation";
+import nextjs from "../assets/images/nextjs.png"
 
 const Skills = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const scope = useMenuAnimation(isOpen);
 
   return (
     <section
@@ -27,7 +23,13 @@ const Skills = () => {
         <div className="bg-neutral-800 flex text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50" />
           <div className="my-auto ms-3">
-            <h2 className="text-2xl text-sky-50 font-medium">React Js</h2>
+            <h2 className="text-2xl text-sky-50 font-medium">React</h2>
+          </div>
+        </div>
+        <div className="bg-neutral-800 flex text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl">
+          <img src={nextjs} alt="renextjsact" width="80px" />
+          <div className="my-auto ms-3">
+            <h2 className="text-2xl text-sky-50 font-medium">Next.js</h2>
           </div>
         </div>
         <div className="bg-neutral-800 flex text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl">
@@ -60,32 +62,13 @@ const Skills = () => {
             <h2 className="text-2xl text-sky-50 font-medium">TypeScript</h2>
           </div>
         </div>
-        <div ref={scope}>
-          <motion.button
-            className="bg-neutral-800 flex text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl w-full"
-            whileTap={{ scale: 0.97 }}
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50" />
-            <div className="my-auto ms-4">
-              <h2 className="text-2xl text-sky-50 font-medium">CSS</h2>
-            </div>
-            <div className="arrow ms-3 mt-4" style={{ transformOrigin: "50% 55%" }}>
-              <svg width="20" height="20" viewBox="0 0 20 20">
-                <path d="M0 7 L 20 7 L 10 16" />
-              </svg>
-            </div>
-          </motion.button>
-          <ul
-            className="bg-neutral-800 text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl w-full"
-            style={{
-              pointerEvents: isOpen ? "auto" : "none",
-              clipPath: "inset(10% 50% 90% 50% round 10px)"
-            }}
-          >
-            <li>✓ Bootstrap</li>
-            <li>✓ Tailwind CSS</li>
-          </ul>
+        <div className="bg-neutral-800 flex text-sky-50 font-semibold hover:bg-gray-700 p-5 rounded-xl" >
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50" />
+          <div className="my-auto ms-3 flex">
+            <h2 className="text-2xl text-sky-50 font-medium my-auto">CSS3</h2>
+             <p className="text-sm font-small my-auto ms-5">✓ Bootstrap <br />
+            ✓ Tailwind CSS</p>
+          </div>
         </div>
       </div>
     </section>

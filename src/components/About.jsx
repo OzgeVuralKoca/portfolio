@@ -30,15 +30,7 @@ const About = () => {
             <h2 className="text-2xl text-sky-300 text font-medium">I'm <span className="text-orange-400">Özge Vural Koca</span></h2>
             <br />
             <p className="text-sky-50 text-md">
-              I am a Frontend Developer with engineering background. I have completed many
-              trainings and made numerous sample applications about with Fronted Developing. I
-              improved myself in a short time, thanks to my ability to think analytically, solve
-              problems, and my curiousness.
-              <br /> <br />
-              I finish a course for Frontend Developer program at Istanbul Education Academy. I
-              completed many projects with Angular, ReactJs , Nodejs and MongoDb. You can
-              access all my work on my GitHub account.
-              I enjoy doing my job and I am looking forward to experiencing new things.
+              I'm Frontend Developer with engineering background. I had differentwork experiences as an energy systems engineer. Last year, I ranmy own 3rd generation coffee shop. I have completed manytrainings about with Frontend Development. I have progressed very quickly in a short time, thanks to my ability to think analytically, solve problems, and my curious nature. I made and makingnumerous sample applications in the frontend field. You can accessall my work on my portfolio and github account. I enjoy doing this job and I am looking forward to experiencing new things.
             </p>
           </div>
         </div>
